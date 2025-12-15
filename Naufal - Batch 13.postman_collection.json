@@ -1,0 +1,214 @@
+{
+	"info": {
+		"_postman_id": "90311321-9d91-4571-baec-ecdac8459cbe",
+		"name": "Naufal - Batch 13",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "50747027",
+		"_collection_link": "https://laluahmadnaufal03-4239439.postman.co/workspace/Lalu-Ahmad-Naufal's-Workspace~c5e7b84d-8ff0-4e02-8ee6-1f48c66cdf74/collection/50747027-90311321-9d91-4571-baec-ecdac8459cbe?action=share&source=collection_link&creator=50747027"
+	},
+	"item": [
+		{
+			"name": "Login",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(201);",
+							"});",
+							"",
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(301);",
+							"});",
+							"",
+							"//Membuat json schema untuk validasi response body",
+							"",
+							"const schema = {",
+							"  \"$schema\": \"http://json-schema.org/draft-07/schema#\",",
+							"  \"title\": \"Generated schema for Root\",",
+							"  \"type\": \"object\",",
+							"  \"properties\": {",
+							"    \"status\": {",
+							"      \"type\": \"number\"",
+							"    },",
+							"    \"token\": {",
+							"      \"type\": \"string\"",
+							"    },",
+							"    \"message\": {",
+							"      \"type\": \"string\"",
+							"    }",
+							"  },",
+							"  \"required\": [",
+							"    \"status\",",
+							"    \"token\",",
+							"    \"message\"",
+							"  ]",
+							"}",
+							"",
+							"pm.test(\"Status for Validation Schema\", () => {",
+							"    pm.response.to.have.jsonSchema(schema);",
+							"})"
+						],
+						"type": "text/javascript",
+						"packages": {},
+						"requests": {}
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\": \"admin\",\r\n    \"password\": \"admin\"\r\n}\r\n\r\n// {\r\n//     \"username\": \"Admin\",\r\n//     \"password\": \"admin123\"\r\n// }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://belajar-bareng.onrender.com/api/login",
+					"protocol": "https",
+					"host": [
+						"belajar-bareng",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"api",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add User",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"// pm.test(\"success created user mumah\", () => {",
+							"//     let jsonData = pm.response.json();",
+							"//     pm.expect(jsonData.message).to.eql(\"User successfully added, Hi mumah!\");",
+							"// })",
+							"",
+							"pm.test(\"success created user Madfya\", () => {",
+							"    let jsonData = pm.response.json();",
+							"    pm.expect(jsonData.message).to.eql(\"User successfully added, Hi Madfya!\");",
+							"})",
+							"",
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(201);",
+							"});"
+						],
+						"type": "text/javascript",
+						"packages": {},
+						"requests": {}
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiaWF0IjoxNzY1Nzg5ODMxLCJleHAiOjE3NjU3OTM0MzF9.mXAmdVcjPjkiQ_iKnFNsOjWPDiAUfbHTnwvYtQm5YME",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"username\": \"Madfya\",\n    \"age\": 41\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://belajar-bareng.onrender.com/api/add-user",
+					"protocol": "https",
+					"host": [
+						"belajar-bareng",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"api",
+						"add-user"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "List Users",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(201);",
+							"});",
+							"",
+							"pm.test(\"Response time is less than 200ms\", function () {",
+							"    pm.expect(pm.response.responseTime).to.be.below(10000);",
+							"});",
+							"",
+							"pm.test(\"First user's username is Ridhwan\", () => { ",
+							"    let jsonData = pm.response.json();",
+							"    pm.expect(jsonData.users[0].username).to.eql(\"Ridhwan\");",
+							"})",
+							"",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {},
+						"requests": {}
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiaWF0IjoxNzY1NzkyMzkwLCJleHAiOjE3NjU3OTU5OTB9.aXvJaYliOIdOujpCGW42nkYkhm_QzGnxUEzK9Rhojf0",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://belajar-bareng.onrender.com/api/users",
+					"protocol": "https",
+					"host": [
+						"belajar-bareng",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"api",
+						"users"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
