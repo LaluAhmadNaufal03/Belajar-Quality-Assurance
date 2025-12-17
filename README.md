@@ -45,6 +45,10 @@ Berikut adalah daftar topik yang saya pelajari dalam bootcamp ini:
 
 4. Cypress
 
-5. JavaScript / Python (bergantung materi automation)
+5. JavaScript (automation)
 
-6. Dan tools lainnya sesuai kurikulum bootcamp
+6. Chai (API Automation)
+
+7. JMeter
+
+8. Dan tools lainnya sesuai kurikulum bootcamp
