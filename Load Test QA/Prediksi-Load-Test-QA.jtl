@@ -1,0 +1,38 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1766117284769,978,Login,200,OK,Test POST Login 1-1,text,true,,673,423,2,4,https://belajar-bareng.onrender.com/api/login,971,0,681
+1766117284769,1119,Add User,400,Bad Request,Test POST Add User 2-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/",532,416,1,4,https://belajar-bareng.onrender.com/api/add-user,1119,0,681
+1766117285776,241,Login,200,OK,Test POST Login 1-1,text,true,,673,423,2,3,https://belajar-bareng.onrender.com/api/login,241,0,0
+1766117285728,327,Login,200,OK,Test POST Login 1-2,text,true,,673,423,1,2,https://belajar-bareng.onrender.com/api/login,327,0,86
+1766117285233,1403,List User,200,OK,Test GET List User 3-1,text,true,,16917,347,1,2,https://belajar-bareng.onrender.com/api/users,1399,0,217
+1766117286056,665,Login,200,OK,Test POST Login 1-2,text,true,,673,423,1,2,https://belajar-bareng.onrender.com/api/login,664,0,0
+1766117286727,348,Login,200,OK,Test POST Login 1-3,text,true,,673,423,1,2,https://belajar-bareng.onrender.com/api/login,348,0,81
+1766117287076,248,Login,200,OK,Test POST Login 1-3,text,true,,673,423,1,2,https://belajar-bareng.onrender.com/api/login,247,0,0
+1766117287143,578,List User,200,OK,Test GET List User 3-1,text,true,,16917,347,1,1,https://belajar-bareng.onrender.com/api/users,576,0,0
+1766117287731,335,Login,200,OK,Test POST Login 1-4,text,true,,673,423,1,2,https://belajar-bareng.onrender.com/api/login,335,0,81
+1766117288068,679,Login,200,OK,Test POST Login 1-4,text,true,,673,423,2,3,https://belajar-bareng.onrender.com/api/login,679,0,0
+1766117288228,585,List User,200,OK,Test GET List User 3-1,text,true,,16917,347,1,2,https://belajar-bareng.onrender.com/api/users,583,0,0
+1766117288730,350,Login,200,OK,Test POST Login 1-5,text,true,,673,423,1,2,https://belajar-bareng.onrender.com/api/login,350,0,103
+1766117289081,248,Login,200,OK,Test POST Login 1-5,text,true,,673,423,1,2,https://belajar-bareng.onrender.com/api/login,248,0,0
+1766117289317,695,List User,200,OK,Test GET List User 3-1,text,true,,16917,347,1,1,https://belajar-bareng.onrender.com/api/users,693,0,0
+1766117290515,623,List User,200,OK,Test GET List User 3-1,text,true,,16917,347,1,1,https://belajar-bareng.onrender.com/api/users,622,0,0
+1766117291643,801,List User,200,OK,Test GET List User 3-1,text,true,,16925,347,1,1,https://belajar-bareng.onrender.com/api/users,800,0,0
+1766117292950,598,List User,200,OK,Test GET List User 3-1,text,true,,16917,347,1,1,https://belajar-bareng.onrender.com/api/users,597,0,0
+1766117294054,582,List User,200,OK,Test GET List User 3-1,text,true,,16917,347,1,1,https://belajar-bareng.onrender.com/api/users,581,0,0
+1766117295142,611,List User,200,OK,Test GET List User 3-1,text,true,,16917,347,1,1,https://belajar-bareng.onrender.com/api/users,607,0,0
+1766117296266,707,List User,200,OK,Test GET List User 3-1,text,true,,16917,347,1,1,https://belajar-bareng.onrender.com/api/users,706,0,0
+1766117297476,626,List User,200,OK,Test GET List User 3-1,text,true,,16925,347,1,1,https://belajar-bareng.onrender.com/api/users,625,0,0
+1766117298605,621,List User,200,OK,Test GET List User 3-1,text,true,,16925,347,1,1,https://belajar-bareng.onrender.com/api/users,620,0,0
+1766117299732,615,List User,200,OK,Test GET List User 3-1,text,true,,16917,347,1,1,https://belajar-bareng.onrender.com/api/users,614,0,0
+1766117300853,729,List User,200,OK,Test GET List User 3-1,text,true,,16917,347,1,1,https://belajar-bareng.onrender.com/api/users,728,0,0
+1766117302088,616,List User,200,OK,Test GET List User 3-1,text,true,,16925,347,1,1,https://belajar-bareng.onrender.com/api/users,615,0,0
+1766117303206,933,List User,200,OK,Test GET List User 3-1,text,true,,16917,347,1,1,https://belajar-bareng.onrender.com/api/users,622,0,0
+1766117304646,592,List User,200,OK,Test GET List User 3-1,text,true,,16917,347,1,1,https://belajar-bareng.onrender.com/api/users,591,0,0
+1766117305744,650,List User,200,OK,Test GET List User 3-1,text,true,,16917,347,1,1,https://belajar-bareng.onrender.com/api/users,650,0,0
+1766117306901,725,List User,200,OK,Test GET List User 3-1,text,true,,16925,347,1,1,https://belajar-bareng.onrender.com/api/users,724,0,0
+1766117308130,598,List User,200,OK,Test GET List User 3-1,text,true,,16917,347,1,1,https://belajar-bareng.onrender.com/api/users,597,0,0
