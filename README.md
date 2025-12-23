@@ -47,8 +47,16 @@ Berikut adalah daftar topik yang saya pelajari dalam bootcamp ini:
 
 5. JavaScript (automation)
 
-6. Chai (API Automation)
+6. Chai dan Assert (API Automation)
 
 7. JMeter
 
-8. Dan tools lainnya sesuai kurikulum bootcamp
+8. Selenium
+
+9. Mocha
+
+10. Mochawesome
+
+11. Node.js
+
+12. Dan tools lainnya sesuai kurikulum bootcamp
