@@ -59,4 +59,12 @@ Berikut adalah daftar topik yang saya pelajari dalam bootcamp ini:
 
 11. Node.js
 
+12. Android Studio
+
+13. Appium
+
+14. Webdriver.io
+
+15. Typescript
+
 12. Dan tools lainnya sesuai kurikulum bootcamp
