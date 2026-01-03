@@ -1,7 +1,7 @@
 # Belajar-Quality-Assurance
 Repository ini berisi dokumentasi perjalanan saya selama mengikuti QA Engineer Bootcamp, mencakup tugas-tugas, catatan belajar, eksperimen, serta hasil praktik dari setiap modul yang saya kerjakan. Saat ini bootcamp masih berlangsung, sehingga isi repository akan terus bertambah seiring dengan perkembangan pembelajaran.
 
-📚 Materi Bootcamp (On Progress)
+📚 Materi Bootcamp
 
 Berikut adalah daftar topik yang saya pelajari dalam bootcamp ini:
 
