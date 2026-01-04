@@ -67,4 +67,6 @@ Berikut adalah daftar topik yang saya pelajari dalam bootcamp ini:
 
 15. Typescript
 
-12. Dan tools lainnya sesuai kurikulum bootcamp
+16. Jira
+
+17. Dan tools lainnya sesuai kurikulum bootcamp
