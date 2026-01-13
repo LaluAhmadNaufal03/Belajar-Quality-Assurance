@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//android.widget.EditText[@resource-id=\"io.appium.android.apis:id/username_edit\"]"
+}
